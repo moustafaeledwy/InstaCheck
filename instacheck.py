@@ -1,18 +1,6 @@
 from instapy import InstaPy
-from instapy.relationship_tools import (
-    get_fans,
-    get_followers,
-    get_following,
-    get_mutual_following,
-    get_nonfollowers,
-    get_unfollowers,
-)
 
-un = "thesqueakz"
-pw = "Me147852"
-
-session = InstaPy(username=un, password=pw, headless_browser=False, want_check_browser=False)
-#session.login()
+session = InstaPy(headless_browser=False, want_check_browser=False)
 
 no_of_following = 772
 no_of_followers = 817
